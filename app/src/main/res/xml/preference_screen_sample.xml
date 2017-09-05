@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+ 
+
+        <SwitchPreference
+                android:key="auto_connect"
+                android:title="@string/setting_auto_connect"
+                android:summary="@string/setting_auto_connect" />
+
+        <EditTextPreference
+                android:key="device_addr"
+                android:title="@string/setting_device_addr"
+                android:dialogTitle="@string/setting_device_addr"
+                android:maxLength="18" />
+
+</PreferenceScreen>
